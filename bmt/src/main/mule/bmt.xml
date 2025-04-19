@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="bmtFlow" doc:id="4c7385a5-0505-4eb5-9f13-9e4a676f3857" >
 		<http:listener doc:name="Listener" doc:id="d1c56b63-d002-4e63-bd17-f72fcba5973c" config-ref="HTTP_Listener_config" path="/test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="9d7a3e41-412f-4ba6-a729-ea9e3d1b38d2" message="logger 1"/>
-		<logger level="INFO" doc:name="Logger" doc:id="a84108cc-8091-4ed0-8a15-360862399075" message="logger 2"/>
+		<logger level="INFO" doc:name="Logger" doc:id="a84108cc-8091-4ed0-8a15-360862399075" message="logger 3 modified and committed by developer 2"/>
 	</flow>
 </mule>
